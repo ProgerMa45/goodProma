@@ -1,59 +1,58 @@
-    /* === Задание 1: Работа с текстовыми свойствами === */
-    h1 {
-        color: darkblue;              /* Изменён цвет текста заголовка */
-        text-align: center;           /* Выровнен по центру */
-      }
+h1 {
+    color: darkblue;        
+    text-align: center;          
+}
   
-      h2 {
-        color: darkgreen;             /* Цвет второго заголовка */
-      }
+h2 {
+    color: darkgreen;         
+}
   
-      p {
-        font-size: 16px;              /* Базовый размер текста */
-      }
+p {
+    font-size: 16px;   
+}
   
-      p.small {
-        font-size: 12px;              /* Меньший размер */
-      }
+p.small {
+    font-size: 12px;          
+}
   
-      p.large {
-        font-size: 20px;              /* Больший размер */
-      }
+p.large {
+    font-size: 23px;        
+}
   
-      p.bold {
-        font-weight: bold;            /* Жирный текст */
-      }
+p.bold {
+    font-weight: bold;       
+}
   
-      /* === Задание 2: Работа с фоновыми свойствами === */
-      .background-container {
-        background-color: #f0f8ff;    /* Светло-голубой фон */
-        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxMWgYPNeWUwopXzxCkbjlrSh7EKGcwFlN6w&s'); /* Фоновое изображение */
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        padding: 20px;
-        margin-bottom: 20px;
-      }
+
+.background-container {
+    background-color: #f0f8ff;  
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxMWgYPNeWUwopXzxCkbjlrSh7EKGcwFlN6w&s'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
   
-      /* === Задание 3: Отступы и рамки === */
-      .box {
-        padding: 15px;                /* Внутренние отступы */
-        margin: 10px;                 /* Внешние отступы */
-        border: 2px solid gray;       /* Серая рамка */
-      }
+
+.box {
+    padding: 15px; 
+    margin: 10cm;               
+    border: 2px solid gray;      
+}
   
-      /* === Задание 4: Размеры и overflow === */
-      .size-box {
-        width: 200px;
-        height: 100px;
-        border: 1px solid black;
-        margin-bottom: 10px;
-      }
+
+.size-box {
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    margin-bottom: 10px;
+}
   
-      .overflow-hidden {
-        overflow: hidden;             /* Скрытие содержимого */
-      }
+.overflow-hidden {
+    overflow: hidden;     
+}
   
-      .overflow-scroll {
-        overflow: scroll;             /* Прокрутка содержимого */
-      }
+.overflow-scroll {
+    overflow: scroll;     
+}
